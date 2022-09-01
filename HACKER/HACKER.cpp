@@ -31,9 +31,8 @@ int main()
 								for (int a = 97; a < 123; a++, k++)
 								{
 									str[7] = (char)a;
-									if (k % 400000 == 0)
+									if (k % 600000 == 0)
 										cout << str << "   " << k << endl;
-									cout << "Hello, World!" << endl;
 								}
 							}
 						}
