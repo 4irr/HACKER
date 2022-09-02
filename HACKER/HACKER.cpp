@@ -33,6 +33,7 @@ int main()
 									str[7] = (char)a;
 									if (k % 50000 == 0)
 										cout << str << "   " << k << endl;
+									cout << "Hello, world!" << endl;
 								}
 							}
 						}
